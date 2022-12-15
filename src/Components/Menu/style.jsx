@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 //Mui Import 
 import PersonIcon from '@mui/icons-material/Person';
+import { Button } from "@mui/material";
 
 
 //Start
@@ -22,7 +23,7 @@ export const CenterDiv = styled.div`
 `
 
 export const Conteyner = styled.div`
-    width: 1100px;
+    width: 1260px;
     height: 100%;
     border: 1px solid red;
     display: flex;
@@ -73,11 +74,12 @@ export const IconImg = styled.img`
 export const UL = styled.ul`
     width: 100%;
     height: 70px;
-    border: 1px solid blue;
+    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px;
+    margin-bottom: 20px;
 `
 
 export const LI = styled.li`
@@ -95,15 +97,15 @@ export const MenuDiv = styled.div`
     display: flex;
     flex-wrap: wrap;
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    gap: 15px;
+    justify-content: space-between;
     align-items: center;
 `
 
 export const Card = styled.div`
-    width: 260px;
+    width: 300px;
     height: 404px;
-    border: 1px solid red;
+    border: 1px solid rgba(51, 51, 51, 0.2);
     display: flex;
     flex-direction: column;
 `
@@ -115,4 +117,39 @@ export const FoodImg = styled.img`
 export const InfoDiv = styled.div`
     width: 100%;
     height: calc(100% - 220px);
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+`
+
+export const FoodName = styled.p`
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+`
+
+export const PriceAndBtn = styled.div`
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+`
+
+export const Price = styled.h3`
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+`
+
+export const MuiBtn = styled(Button)`
+    width: 120px !important;
+    height: 42px !important;
+    background: #B59571 !important;
+    color: white !important;
+    border: 0px !important;
 `

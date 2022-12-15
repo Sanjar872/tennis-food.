@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CenterDiv, Conteyner, FoodImg, HeadDiv, IconImg, LI, Login, LoginDiv, Main, MenuDiv, MuiUser, UL } from './style'
+import { Card, CenterDiv, Conteyner, FoodImg, FoodName, HeadDiv, IconImg, InfoDiv, LI, Login, LoginDiv, Main, MenuDiv, MuiBtn, MuiUser, Price, PriceAndBtn, UL } from './style'
 
 //Import Img
 import Basket from './Image/Basket.png'
@@ -46,39 +46,123 @@ const Menu = () => {
           <MenuDiv>
             <Card>
               <FoodImg src={Food1} />
+              <InfoDiv>
+                <FoodName>Яичница-глазунья из трех яиц</FoodName>
+                <PriceAndBtn>
+                  <Price>250 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food2} />
+              <InfoDiv>
+                <FoodName>Омлет из трёх яиц</FoodName>
+                <PriceAndBtn>
+                  <Price>250 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food3} />
+              <InfoDiv>
+                <FoodName>Домашние сырники</FoodName>
+                <PriceAndBtn>
+                  <Price>490 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food4} />
+              <InfoDiv>
+                <FoodName>Блины</FoodName>
+                <PriceAndBtn>
+                  <Price>от 190 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food5} />
+              <InfoDiv>
+                <FoodName>Каша c ягодами и кедровыми орехами</FoodName>
+                <PriceAndBtn>
+                  <Price>450 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food6} />
+              <InfoDiv>
+                <FoodName>Скрэмбл</FoodName>
+                <PriceAndBtn>
+                  <Price>290 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food7} />
+              <InfoDiv>
+                <FoodName>Яйцо Бенедикт с лососем</FoodName>
+                <PriceAndBtn>
+                  <Price>850 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food8} />
+              <InfoDiv>
+                <FoodName>Яйцо Бенедикт с беконом</FoodName>
+                <PriceAndBtn>
+                  <Price>650 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food9} />
+              <InfoDiv>
+                <FoodName>Гречневая каша с авокадо, яйцом пашот и пармезаном</FoodName>
+                <PriceAndBtn>
+                  <Price>490 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food10} />
+              <InfoDiv>
+                <FoodName>Кобб – салат с лососем</FoodName>
+                <PriceAndBtn>
+                  <Price>890 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food11} />
+              <InfoDiv>
+                <FoodName>Кобб – салат с креветками</FoodName>
+                <PriceAndBtn>
+                  <Price>960 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
             <Card>
               <FoodImg src={Food8} />
+              <InfoDiv>
+              <FoodName>Гречневая каша  и пармезаном</FoodName>
+                <PriceAndBtn>
+                  <Price>490 ₽</Price>
+                  <MuiBtn variant='contained' >В корзину</MuiBtn>
+                </PriceAndBtn>
+              </InfoDiv>
             </Card>
           </MenuDiv>
         </Conteyner>
